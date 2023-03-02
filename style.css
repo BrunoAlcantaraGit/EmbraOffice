@@ -1,0 +1,92 @@
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-color: rgb(220, 205, 255);
+    background-image: linear-gradient(to top, #94b6f7, #c8e2f3);
+    background-image: url(img/fundo-quad.png);
+    
+}header{background-color:#114791;
+color: black;
+display: flex; justify-content:space-between;
+align-items: flex-end;
+padding: 5px;
+
+}section{
+    
+    margin-left:100px;
+    display: flex;
+    align-items: center;
+    
+   
+}form{display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    color: rgb(54, 55, 56);
+    border: solid 1px ;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 1px;
+
+}.ForMsg{
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    max-width: 270px;
+    margin-bottom: 20px;
+    color: rgb(54, 55, 56);
+    font-weight: 400;
+
+}.campoFor{color: #114791;
+font-weight: 600;
+
+}.conteudo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: justify;
+   border: solid 2px;
+   width: 750px;
+   height: 450px;
+   padding: 20px;
+   margin: 0px;
+   font: 500;
+   font-size: 24px;  
+   color: #114791;
+
+}.Pconteudo{font-size: 16px;
+    color: rgb(54, 55, 56);
+
+}input{padding: 15px;
+margin: 5px;
+
+}input#botton{
+cursor: pointer;    
+margin-top: 10px;
+border-radius: 18px;
+background-color: #114791;
+width: 250px;
+font-weight: 800;
+color: aliceblue;
+
+}input#botton:hover{background-color: #5e9bf0;}
+
+.caixa{
+ padding: 5px;
+ width: 250px;
+border-radius: 0px 0px 25px 0px;}
+
+footer{
+padding: 10px;
+background-color: rgb(8, 63, 180);
+
+}.icone{width: 40%;
+    
+}
+.ListaIcone{display: flex;
+    flex-direction: row;
+    justify-content: center;}
